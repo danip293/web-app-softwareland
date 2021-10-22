@@ -43,6 +43,9 @@ const Header = () => {
               </NavItem>
               <NavItem>
                 <NavLink href="#service">Servicios</NavLink>
+              </NavItem> 
+              <NavItem>
+                <NavLink href="#tasklist">Lista de tareas</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#about">Acerca de nosotros</NavLink>
