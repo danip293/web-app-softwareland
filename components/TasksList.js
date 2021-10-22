@@ -23,7 +23,7 @@ const TaskList = ({ tasks }) => {
                 </thead>
                 <tbody>
                   {tasks.map((task) => (
-                    <tr>
+                    <tr key={task._id}>
                       <th scope="row">{task._id}</th>
                       <td>{task.name}</td>
                       <td>{task.status}</td>
